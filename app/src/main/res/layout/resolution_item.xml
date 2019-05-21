@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="405dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/resolution_name"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="208dp"
+            android:background="@drawable/card_bg"
+            android:text="resolution name"
+            android:textColor="#2196F3"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/description"
+            android:layout_width="303dp"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="46dp"
+            android:background="@drawable/text_card"
+            android:shadowColor="#00000000"
+            android:shadowDx="20"
+            android:shadowDy="30"
+            android:text="L’utilisateur encode sa résolution, les raisons qui motivent sa résolution et les dommages éventuels si celle-ci n’est pas respectée. Pour le suivi des résolutions, l’application va émettre des notifications journalières ou hebdomadaire selon la période d’exécution de la résolution, si elle est journalière ou hebdomadaire. La notification sera dans le but de demander à l’utilisateur de valider si oui la résolution a été tenue ou pas. Sous base de ces informations, l’utilisateur pourra avoir un aperçu de son évolution par rapport à sa discipline, ce qui le poussera à aller de l’avant et à tenir ses objectifs.L’utilisateur encode sa résolution, les raisons qui motivent sa résolution et les dommages éventuels si celle-ci n’est pas respectée. Pour le suivi des résolutions, l’application va émettre des notifications journalières ou hebdomadaire selon la période d’exécution de la résolution, si elle est journalière ou hebdomadaire. La notification sera dans le but de demander à l’utilisateur de valider si oui la résolution a été tenue ou pas. Sous base de ces informations, l’utilisateur pourra avoir un aperçu de son évolution par rapport à sa discipline, ce qui le poussera à aller de l’avant et à tenir ses objectifs."
+            android:textStyle="bold" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

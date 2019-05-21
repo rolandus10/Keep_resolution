@@ -1,5 +1,7 @@
 package com.example.keepresolutions;
 
+import java.io.Serializable;
+
 public class Resolution {
 
     private int id;

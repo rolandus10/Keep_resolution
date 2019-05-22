@@ -77,7 +77,5 @@ public class MainActivity extends AppCompatActivity implements MyAdapter.OnClick
 
         startActivity(intent);
 
-        Toast.makeText(getApplicationContext(),"Reason: " + resolution.getReason(),Toast.LENGTH_LONG).show();
-
     }
 }

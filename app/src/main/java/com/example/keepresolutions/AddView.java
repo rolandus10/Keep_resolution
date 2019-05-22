@@ -42,7 +42,7 @@ public class AddView extends AppCompatActivity {
                 String reason = reason_add.getText().toString();
                 String damage = damage_add.getText().toString();
 
-                if (name != "" && descripion !="" && reason !="" && damage !="" ){
+                if (!name.equals("") && !descripion.equals("") && !reason.equals("") && !damage.equals("") ){
 
                     //create object for adding in db
                     Resolution resolution = new Resolution();

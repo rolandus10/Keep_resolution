@@ -2,6 +2,7 @@ package com.example.keepresolutions;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -16,7 +17,7 @@ public class ViewResolution extends AppCompatActivity {
 
 
 
-        Button backButton = findViewById(R.id.backButton);
+        FloatingActionButton backButton = findViewById(R.id.backButton);
         TextView name = findViewById(R.id.name_view);
         TextView description = findViewById(R.id.description_view);
         TextView reason = findViewById(R.id.reason_view);

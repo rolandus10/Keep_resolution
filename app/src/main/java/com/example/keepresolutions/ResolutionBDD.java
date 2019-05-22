@@ -7,6 +7,9 @@ import android.database.sqlite.SQLiteDatabase;
 
 import java.util.ArrayList;
 
+import static java.lang.Boolean.FALSE;
+import static java.lang.Boolean.TRUE;
+
 
 public class ResolutionBDD {
     private static final int VERSION = 1;
@@ -121,4 +124,16 @@ public class ResolutionBDD {
         return resolutionList;
     }
 
+    public Boolean is_not_Empty(){
+        Cursor c = bdd.query(TABLE_RESOLUTIONS, new String[] { COL_ID, COL_NAME,
+                COL_DESC, COL_REASON, COL_DAMAGE }, null, null, null, null, COL_NAME);
+        Boolean answer = TRUE;
+        if (c.getCount() == 0) {
+            c.close();
+            answer = FALSE;
+        }
+
+        return answer;
+
+    }
 }

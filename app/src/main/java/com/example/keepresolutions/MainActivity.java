@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity implements MyAdapter.OnClick
         intent.putExtra( "description",resolution.getDescription());
         intent.putExtra( "reason",resolution.getReason());
         intent.putExtra( "damage",resolution.getDamage());
+        intent.putExtra( "id",resolution.getId());
 
         startActivity(intent);
 

@@ -34,7 +34,6 @@ public class ViewResolution extends AppCompatActivity {
 
 
         // init des textView
-
         name.setText(intent.getStringExtra("name"));
         description.setText(intent.getStringExtra("description"));
         reason.setText(intent.getStringExtra("reason"));
@@ -91,16 +90,8 @@ public class ViewResolution extends AppCompatActivity {
                 resolutionBDD.openForWrite();
                 resolutionBDD.updateResolution(id,resolution);
 
-
             }
         });
-
-
-
-
-
-
-
 
     }
 }

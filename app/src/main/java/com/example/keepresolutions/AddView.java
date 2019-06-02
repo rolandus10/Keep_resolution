@@ -64,8 +64,6 @@ public class AddView extends AppCompatActivity {
 
                     Toast.makeText(getApplicationContext(),"Resolution enregistrée",
                             Toast.LENGTH_LONG).show();
-
-
                 }
                 else {
 
@@ -74,9 +72,6 @@ public class AddView extends AppCompatActivity {
                 }
             }
         });
-
-
-
 
         FloatingActionButton fab = findViewById(R.id.fabBack);
         fab.setOnClickListener(new View.OnClickListener() {

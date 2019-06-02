@@ -31,6 +31,4 @@ public class ResolutionBaseSQLite extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE " + TABLE_RESOLUTIONS);
         onCreate(db);
     }
-
-
 }
